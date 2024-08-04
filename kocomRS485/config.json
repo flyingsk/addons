@@ -19,10 +19,10 @@
   ],
   "options": {
     "RS485": {
-      "type": "Serial"
+      "type": "Socket"
     },
     "Socket": {
-      "server": "192.168.x.x",
+      "server": "192.168.45.100",
       "port": 8899
     },
     "SocketDevice": {
@@ -36,17 +36,17 @@
     },
     "MQTT": {
       "anonymous": false,
-      "server": "192.168.x.x",
-      "username": "id",
-      "password": "pw"
+      "server": "192.168.45.73",
+      "username": "flyingsk",
+      "password": "fortune3#"
     },
     "Wallpad": {
-      "light": false,
+      "light": true,
       "plug": false,
-      "thermostat": false,
+      "thermostat": true,
       "fan": false,
       "gas": false,
-      "elevator": false
+      "elevator": true
     },
     "Advanced": {
       "INIT_TEMP": 22,
@@ -62,19 +62,19 @@
       },
       {
         "name": "bedroom",
-        "number": 2
+        "number": 0
       },
       {
         "name": "room1",
-        "number": 2
+        "number": 0
       },
       {
         "name": "room2",
-        "number": 2
+        "number": 0
       },
       {
         "name": "kitchen",
-        "number": 3
+        "number": 0
       }
     ],
     "KOCOM_PLUG_SIZE": [
