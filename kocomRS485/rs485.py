@@ -33,7 +33,7 @@ INIT_TEMP = 22
 # 환풍기 초기속도 ['low', 'medium', 'high']
 DEFAULT_SPEED = 'medium'
 # 조명 / 플러그 갯수
-KOCOM_LIGHT_SIZE            = {'livingroom': 3, 'bedroom': 2, 'room1': 2, 'room2': 2, 'kitchen': 3}
+KOCOM_LIGHT_SIZE            = {'livingroom': 3, 'bedroom': 0, 'room1': 0, 'room2': 0, 'kitchen': 0}
 KOCOM_PLUG_SIZE             = {'livingroom': 2, 'bedroom': 2, 'room1': 2, 'room2': 2, 'kitchen': 2}
 
 # 방 패킷에 따른 방이름 (패킷1: 방이름1, 패킷2: 방이름2 . . .)
@@ -43,7 +43,7 @@ KOCOM_ROOM                  = {'00': 'livingroom', '01': 'bedroom', '02': 'room2
 KOCOM_ROOM_THERMOSTAT       = {'00': 'livingroom', '01': 'bedroom', '02': 'room1', '03': 'room2'}
 
 # TIME 변수(초)
-SCAN_INTERVAL = 300         # 월패드의 상태값 조회 간격
+SCAN_INTERVAL = 500         # 월패드의 상태값 조회 간격
 SCANNING_INTERVAL = 0.8     # 상태값 조회 시 패킷전송 간격
 ####################### Start Here by Zooil ###########################
 option_file = '/data/options.json'                                                                                             
