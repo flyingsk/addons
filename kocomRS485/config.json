@@ -36,7 +36,7 @@
     },
     "MQTT": {
       "anonymous": false,
-      "server": "192.168.45.73",
+      "server": "192.168.45.82",
       "username": "flyingsk",
       "password": "fortune3#"
     },
